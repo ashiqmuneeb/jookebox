@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    font-family: Helvetica Neue,Helvetica, Arial, sans-serif;
+    background-image: url("https://jookebox.com/images/heroimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+.header{
+    background: #979797;
+    width: 100%;
+    height: 85px;
+}
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+.logo-text{
+    color: #fff;
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 170px;
+}
+.login{
+    width: 50%;
+    float: left ;
+    padding-top: 10px;
+}
+
+.login-label{
+    color: #fff;
+    font-size: 11px;
+}
+.login-controls{
+    margin-left: 115px;
+}
+.forgetten{
+    font-size: 11px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.sub-btn{
+    background: #9e2416;
+    color: #fff;
+    border-color: #000000;
+    height: 20px;
+    cursor: pointer;
+}
+
+.sub-btn:hover{
+    background: rgb(21, 61, 238);
+}
+
+.body-container{
+    width: auto;
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.text{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    padding-right: 30px;
+}
+.policy{
+    text-decoration: none;
+}
+#register{
+    width:75%;
+    height: 40px;
+    border-radius: 10px;
+    background: #9e2416;
+    border-color: rgb(0, 0, 0);
+    color: white;
+}
+.pass {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}   
+@media only screen and (max-width: 768px) {
+    
+        .body-container {
+            padding-top: 2%;
+            padding-left: 10%;
+        }
+    
+        .body-container h1,
+        .body-container p {
+            margin: 9px;
+        }
+    
+        #register {
+            width: 50%;
+        }
+    
+        .header {
+            width: 100%; 
+            
+        }
+    
+        .main-body {
+            width: 100%;
+        }
+       
+
+          .logo {
+            width: 100%; 
+            padding-top: 10px; 
+            text-align: center; 
+            margin-left: 0; 
+        }
+    
+        .logo-text {
+            margin-left: 0; 
+        }
+    
+        .login {
+            width: 100%;
+            padding-top: 10px; 
+        }
+    
+        .login-controls {
+            margin-left: 0; 
+        }
+    
+        .forgetten {
+            text-align: center; 
+        }
+    
+        .sub-btn {
+            width: 100%; 
+        }
+        .text {
+            width: 100%;
+            padding: 10px; 
+            padding-right: 50px; 
+            box-sizing: border-box; 
+        }
+    
+        .policy {
+            text-align: center; 
+        }
+    
+        #register {
+            width: 50%;  
+        }
+    
+        .pass {
+            margin-top: 10px; 
+        }
+    
+        .toggle-password {
+            right: 10px; 
+        }
+    }
+    
+
